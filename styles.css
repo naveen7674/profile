@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    align-items: center;
+    justify-content: center;
+}
+nav{
+   
+    background-color: black;
+}
+nav ul{
+    text-align: center;
+    justify-content: center;
+    justify-content:right;
+    display: flex;
+    margin-right: 10%;
+}
+nav ul li{
+    list-style: none;
+   
+    padding: 10px;
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+.logohero{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+.logohero .herotext{
+    padding-top: 12%;
+}
+.container .container-fluid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.container .container-fluid img{
+    width: 25%;
+    flex-wrap: wrap;
+}
+h3{
+    padding: 2%;
+    text-align: center;
+}
+.texthero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.texthero .imgdiv img{
+width: 100%;
+}
+.texthero .abt{
+    padding: 10px;
+}
+footer{
+    text-align: center;
+    justify-content: center;
+    padding-top:2%;
+    padding-bottom: 2%;
+    background-color: gray;
+}
+footer a{
+    color: blue;
+    }
+@media(max-width: 700px){
+    .logohero{
+        display:block;
+        justify-content: center;
+        align-items: center;
+    }
+    .logohero .logo {
+        justify-content: center;
+        text-align: center;
+    }
+    .logohero .herotext{
+        text-align: center;
+    }
+    .logohero .logoimg{
+        display: block;
+        text-align: center;
+    }
+    .container .container-fluid{
+        align-items: center;
+        
+    }
+    .container .container-fluid img{
+        align-items: center;
+        display: block;
+        width: 75%;
+        
+    }
+    h3{
+        font-size: 15px;
+        padding: 25px;
+    }
+    .texthero{
+        display: block;
+    }
+    .texthero .abt{
+        text-align: center;
+        padding: 20px;
+        
+    }
+   
+}
